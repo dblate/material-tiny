@@ -1,0 +1,10 @@
+<view id="add-to-favorites"
+    class="{{classes}}"
+    aria-label="Add to favorites"
+    aria-hidden="true"
+    aria-pressed="false"
+    bindtap="handleTap"
+    >
+    <text class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</text>
+    <text class="material-icons mdc-icon-button__icon">favorite_border</text>
+</view>
